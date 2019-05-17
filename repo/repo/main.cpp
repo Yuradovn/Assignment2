@@ -22,4 +22,10 @@ int main(){
 	Points(points, score, num);
 	GamesCounter(num, score, games);
 	SortTeams(points, comands, num, games);
+
+	ofstream f("results.csv");
+	for (int i = 0; i < num; i++) {
+		f << comands[i] << "-" << points[i] << "-" << games[i] << endl;
+	}
+	return 0;
 }

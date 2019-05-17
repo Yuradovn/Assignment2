@@ -1,4 +1,5 @@
 ﻿  functions.cpp
+c:\users\yura\source\repos\assigment2\repo\repo\functions.cpp(27): warning C4018: '<': signed/unsigned mismatch
   main.cpp
   Generating Code...
   repo.vcxproj -> C:\Users\Yura\source\repos\Assigment2\repo\Debug\repo.exe
