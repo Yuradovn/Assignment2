@@ -98,3 +98,20 @@ void Points(int *points, int **score, int num)
 		}
 	}
 }
+
+void SortTeams(int *points, string *comands, int num, int *games) {
+	for (int i = 0; i < num; i++) {
+		if (points[i] < points[i + 1]) {
+			swap(points[i], points[i + 1]);
+			swap(comands[i], comands[i + 1]);
+			swap(games[i], games[i + 1]);
+		}
+	}
+	for (int i = 0; i < num; i++) {
+		if (points[i] == points[i + 1] && games[i] > games[i + 1]) {
+			swap(points[i], points[i + 1]);
+			swap(comands[i], comands[i + 1]);
+			swap(games[i], games[i + 1]);
+		}
+	}
+}

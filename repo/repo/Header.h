@@ -10,3 +10,4 @@ void Score(string s, int **score, string name, int num);
 void Teams(string s, string *comands, string name, int num);
 void GamesCounter(int num, int **score, int *games);
 void Points(int *points, int **score, int num);
+void SortTeams(int *points, string *comands, int num, int *games);

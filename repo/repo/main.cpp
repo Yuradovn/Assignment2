@@ -21,4 +21,5 @@ int main(){
 	Score(s, score, name, num);
 	Points(points, score, num);
 	GamesCounter(num, score, games);
+	SortTeams(points, comands, num, games);
 }
